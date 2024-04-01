@@ -6,7 +6,6 @@ function getComputerChoice(){
 
 const playerSelection = prompt("Which do you want to choose? rock, paper or scissors").toLowerCase();
 const computerSelection = getComputerChoice()
-// console.log(cs);
 
 const game = (ps,cs) => {
     switch (ps) {
@@ -43,11 +42,6 @@ const game = (ps,cs) => {
                 return "This is a tie!, Play again?"
             }
             break;
-        // default:
-        //     if(ps == cs){
-        //         return "This is a tie!, Play again?" ;
-        //     }
-        //     break;
     }
 }
 
